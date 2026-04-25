@@ -1,0 +1,19 @@
+{
+  "name": "print_voucher",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "express": "^5.2.1",
+    "pdf-to-printer": "^5.7.0",
+    "pdfkit": "^0.18.0"
+  }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Voucher Printer</title>
+</head>
+<body>
+
+<h2>Voucher Selection Panel</h2>
+
+<form method="POST" action="/print">
+
+  <label>
+    <input type="checkbox" name="voucher" value="ABC|123|3600">
+    ABC - 3600 sec
+  </label><br>
+
+  <label>
+    <input type="checkbox" name="voucher" value="XYZ|999|1800">
+    XYZ - 1800 sec
+  </label><br>
+
+  <label>
+    <input type="checkbox" name="voucher" value="7K7|VFM|9000">
+    7K7 - 9000 sec
+  </label><br>
+
+  <br>
+  <button type="submit">PRINT SELECTED</button>
+
+</form>
+
+</body>
+</html>
