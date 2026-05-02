@@ -56,7 +56,7 @@ app.post("/print", (req, res) => {
 
     doc.pipe(stream);
 
-    doc.fontSize(20).text("WIFI VOUCHER", { align: "center" });
+    doc.fontSize(20).text("jie_wi_fi", { align: "left" });
     doc.moveDown();
 
     doc.fontSize(14).text(`USER: ${user}`);
